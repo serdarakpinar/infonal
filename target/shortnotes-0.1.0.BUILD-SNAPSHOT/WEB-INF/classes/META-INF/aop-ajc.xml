@@ -1,0 +1,24 @@
+<aspectj>
+<aspects>
+<aspect name="com.xebia.shortnotes.service.NotebookService_Roo_Service"/>
+<aspect name="com.xebia.shortnotes.domain.User_Roo_JavaBean"/>
+<aspect name="com.xebia.shortnotes.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.xebia.shortnotes.repository.NoteRepository_Roo_Mongo_Repository"/>
+<aspect name="com.xebia.shortnotes.web.NotebookController_Roo_Controller"/>
+<aspect name="com.xebia.shortnotes.service.NotebookServiceImpl_Roo_Service"/>
+<aspect name="com.xebia.shortnotes.domain.Notebook_Roo_JavaBean"/>
+<aspect name="com.xebia.shortnotes.domain.Note_Roo_ToString"/>
+<aspect name="com.xebia.shortnotes.domain.Notebook_Roo_Mongo_Entity"/>
+<aspect name="com.xebia.shortnotes.service.NoteServiceImpl_Roo_Service"/>
+<aspect name="com.xebia.shortnotes.domain.Note_Roo_Mongo_Entity"/>
+<aspect name="com.xebia.shortnotes.repository.NotebookRepository_Roo_Mongo_Repository"/>
+<aspect name="com.xebia.shortnotes.domain.Notebook_Roo_ToString"/>
+<aspect name="com.xebia.shortnotes.repository.UserRepository_Roo_Mongo_Repository"/>
+<aspect name="com.xebia.shortnotes.domain.User_Roo_ToString"/>
+<aspect name="com.xebia.shortnotes.domain.User_Roo_Mongo_Entity"/>
+<aspect name="com.xebia.shortnotes.service.NoteService_Roo_Service"/>
+<aspect name="com.xebia.shortnotes.web.NoteController_Roo_Controller"/>
+<aspect name="com.xebia.shortnotes.domain.Note_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

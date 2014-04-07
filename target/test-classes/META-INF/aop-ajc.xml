@@ -1,0 +1,15 @@
+<aspectj>
+<aspects>
+<aspect name="com.xebia.shortnotes.domain.NotebookDataOnDemand_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.UserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.xebia.shortnotes.domain.NoteIntegrationTest_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.UserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.xebia.shortnotes.domain.NotebookIntegrationTest_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.UserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.MemberIntegrationTest_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.MemberDataOnDemand_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.NoteDataOnDemand_Roo_Configurable"/>
+<aspect name="com.xebia.shortnotes.domain.UserIntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

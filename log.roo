@@ -1,0 +1,51 @@
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-04 01:02:38
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-04 02:55:13
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-04 16:30:10
+mongo setup --databaseName shortnotes --host localhost --port 27017
+  hint
+hint topics
+entity mongo --class ~.domain.Notebook --testAutomatically 
+ entity mongo --class ~.domain.Note --testAutomatically
+focus --class ~.domain.Notebook 
+// [failed] field string --fieldName name --notNull 
+// [failed] field string --fieldName author --notNull 
+focus --class ~.domain.Note 
+// [failed] field reference --type ~.domain.Notebook --fieldName notebook --notNull
+repository mongo --interface ~.repository.NotebookRepository
+hint
+repository mongo --interface ~.repository.NotebookRepository 
+focus --class ~.domain.Note 
+// [failed] field string --fieldName title --notNull 
+repository mongo --interface ~.repository.NotebookRepository 
+focus --class ~.domain.Notebook
+// [failed] field date --fieldName created --type java.util.Date --notNull
+ entity mongo --class ~.domain.Notebook --testAutomatically 
+ entity mongo --class ~.domain.Notebook
+entity mongo --class ~.domain.User --testAutomatically
+focus --class ~.domain.User
+field string --fieldName name --notNull 
+field string --fieldName lastName --notNull 
+field string --fieldName phone --notNull 
+repository mongo --interface ~.repository.UserRepository
+hint
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-04 22:38:33
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-04 22:43:23
+ entity mongo --class ~.domain.Member --testAutomatically
+focus --class ~.domain.Member
+field string --fieldName name --notNull 
+field string --fieldName lastName --notNull 
+field string --fieldName phone --notNull 
+repository mongo --interface ~.repository.MemberRepository  --entity ~.domain.Member
+hint
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-04 22:55:19
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-04 22:55:49
+service type --interface ~.service.MemberService --entity ~.domain.Member
+service type --interface ~.service.UserService --entity ~.domain.User
+web mvc all --package ~.web
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-05 02:18:32
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-05 15:08:33
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-06 20:12:42
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-06 21:11:15
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-06 21:28:14
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-07 02:08:28
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-07 03:04:50

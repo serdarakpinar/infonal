@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_xebia_shortnotes_domain_User" items="${users}" z="RMvS0AvsTDzKQT1w7apZ6dtkQJg=">
+        <table:table data="${users}" id="l_com_xebia_shortnotes_domain_User" path="/users" z="S9m9WZ/fYWhwKV1rwl5TvcHr/1A=">
+            <table:column id="c_com_xebia_shortnotes_domain_User_name" property="name" z="lvpoH3piHiz0+4NvP+p3yGY+rMU="/>
+            <table:column id="c_com_xebia_shortnotes_domain_User_lastName" property="lastName" z="zm1ZrV9/CgNn2zAnT2IMDCl25ME="/>
+            <table:column id="c_com_xebia_shortnotes_domain_User_phone" property="phone" z="Y3q+5I3SfAW71T8npbg4kQAlngQ="/>
+        </table:table>
+    </page:list>
+</div>
